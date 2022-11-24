@@ -26,9 +26,20 @@ class MyApp extends StatelessWidget {
             child: Column(
 
               children: [
-                CircleAvatar(
-                  radius: 80,
-                  backgroundImage: NetworkImage('https://i0.wp.com/www.kahanihindi.com/wp-content/uploads/2021/06/Girls-Attitude-DP-HALF-SIZE-16.jpg?resize=500%2C500&ssl=1'),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    shape: BoxShape.circle,
+                    border: Border.all(color: Colors.pink,width: 3),),
+
+                  child: CircleAvatar(
+                    radius: 85,
+                    backgroundColor: Colors.white,
+                    child: CircleAvatar(
+                      radius: 80,
+                      backgroundImage: NetworkImage('https://i0.wp.com/www.kahanihindi.com/wp-content/uploads/2021/06/Girls-Attitude-DP-HALF-SIZE-16.jpg?resize=500%2C500&ssl=1'),
+                    ),
+                  ),
                 ),
                 SizedBox(height: 20,),
                 Text('Jonathon Doe',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30),),
