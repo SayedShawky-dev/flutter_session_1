@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 40,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -72,26 +72,26 @@ class MyApp extends StatelessWidget {
                     color: Colors.pink[300]),
               ),
               SizedBox(
-                height: 20,
+                height: 40,
               ),
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Container(
-                      height: 70,
-                      width: 70,
+                      height: 50,
+                      width: 50,
                       child: Image.asset('assets/images/instagram.png')),
                   Container(
-                      height: 70,
-                      width: 70,
+                      height: 50,
+                      width: 50,
                       child: Image.asset('assets/images/website.png')),
                   Container(
-                      height: 70,
-                      width: 70,
+                      height: 50,
+                      width: 50,
                       child: Image.asset('assets/images/be.png')),
                   Container(
-                      height: 70,
-                      width: 70,
+                      height: 50,
+                      width: 50,
                       child: Image.asset('assets/images/linkedin.png')),
                 ],
               ),
