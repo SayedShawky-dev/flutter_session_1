@@ -43,7 +43,11 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Jonathon Doe',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30),),
-                  Icon(Icons.brightness_auto,color: Colors.deepPurple,)
+                  SizedBox(width: 10,),
+                  Container(
+                      height: 30,
+                      width: 30,
+                      child: Image.asset('assets/images/quality (1).png')),
                 ],
               ),
               SizedBox(height: 10,),
