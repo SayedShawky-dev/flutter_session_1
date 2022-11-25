@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                   Container(
                       height: 30,
                       width: 30,
-                      child: Image.asset('assets/images/quality (1).png')),
+                      child: Image.asset('assets/images/check.png')),
                 ],
               ),
               SizedBox(height: 10,),
